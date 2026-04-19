@@ -477,6 +477,18 @@ p {
   margin-top: 12px;
 }
 
+.slogan-hero {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  color: var(--yellow);
+  letter-spacing: 0.06em;
+  margin-top: 14px;
+  text-shadow: 2px 2px 0 var(--black);
+  opacity: 1;
+}
+
 .folhetos-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
