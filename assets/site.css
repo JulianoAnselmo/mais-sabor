@@ -362,6 +362,45 @@ p {
   transition: 0.2s;
 }
 
+/* BORDAO BANNER */
+.bordao-banner {
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 50%, var(--primary) 100%);
+  color: var(--yellow);
+  text-align: center;
+  padding: 18px 20px;
+  font-family: 'Archivo Black', 'Bebas Neue', Arial, sans-serif;
+  font-size: clamp(1.4rem, 3.8vw, 2.4rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+  border-top: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--yellow);
+  position: relative;
+  overflow: hidden;
+}
+.bordao-banner strong {
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+}
+.bordao-banner .bordao-star {
+  color: var(--yellow);
+  font-size: 1.2em;
+  animation: bordaoPulse 1.6s ease-in-out infinite;
+}
+.bordao-banner .bordao-star:last-child { animation-delay: 0.8s; }
+@keyframes bordaoPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.25); opacity: 0.85; }
+}
+@media (max-width: 560px) {
+  .bordao-banner { padding: 14px 12px; gap: 10px; letter-spacing: 0.05em; }
+}
+
 /* PROMO BAR */
 .promo-bar {
   background: var(--primary);
