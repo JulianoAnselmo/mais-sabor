@@ -282,17 +282,23 @@ p {
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.12));
 }
 
-@media (max-width: 720px) {
+@media (max-width: 820px) {
+  .header-inner {
+    min-height: 64px;
+  }
   .brand-logo {
-    height: 92px;
-    margin: -14px 0;
+    height: 76px;
+    margin: -10px 0;
   }
 }
 
 @media (max-width: 380px) {
+  .header-inner {
+    min-height: 58px;
+  }
   .brand-logo {
-    height: 78px;
-    margin: -10px 0;
+    height: 66px;
+    margin: -8px 0;
   }
 }
 
@@ -1438,7 +1444,7 @@ p {
 @media (max-width: 820px) {
   .nav {
     position: fixed;
-    top: 84px;
+    top: 64px;
     left: 0;
     right: 0;
     background: #fff;
