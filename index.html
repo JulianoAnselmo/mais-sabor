@@ -47,13 +47,17 @@
   {
     "@context": "https://schema.org",
     "@type": "ButcherShop",
+    "@id": "https://www.casadecarnesmaissabor.com.br/#butchershop",
     "name": "Casa de Carnes Mais Sabor",
     "alternateName": "Mais Sabor Taquaritinga",
     "description": "Casa de carnes em Taquaritinga com ofertas da semana, combos de churrasco, cortes frescos e disk entrega no WhatsApp.",
     "telephone": "+55 16 99634-4348",
     "slogan": "Da nossa casa para sua mesa",
     "priceRange": "$$",
-    "image": "https://www.casadecarnesmaissabor.com.br/assets/img/sobre/fachada.png",
+    "image": [
+      "https://www.casadecarnesmaissabor.com.br/assets/img/sobre/fachada.png",
+      "https://www.casadecarnesmaissabor.com.br/assets/img/folhetos/folheto-1.jpeg"
+    ],
     "logo": "https://www.casadecarnesmaissabor.com.br/assets/img/logo.png",
     "url": "https://www.casadecarnesmaissabor.com.br",
     "address": {
@@ -88,6 +92,26 @@
       "@type": "City",
       "name": "Taquaritinga"
     },
+    "paymentAccepted": ["Dinheiro", "Pix", "Cartão de Crédito", "Cartão de Débito"],
+    "currenciesAccepted": "BRL",
+    "hasDeliveryMethod": "https://schema.org/OnSitePickup",
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "name": "Combo Churrasco",
+        "description": "Combo completo para churrasco com cortes selecionados",
+        "priceCurrency": "BRL",
+        "price": "89.90",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Disk Entrega",
+        "description": "Entrega de carnes frescas em Taquaritinga pelo WhatsApp",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
     "sameAs": [
       "https://www.instagram.com/casadecarnes.maissabor/"
     ]
