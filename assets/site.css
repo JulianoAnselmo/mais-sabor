@@ -908,8 +908,6 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--yellow);
-  border-left: 4px solid var(--black);
 }
 
 /* CATEGORIAS */
@@ -1129,11 +1127,9 @@ p {
 .img-main,
 .img-sub {
   position: absolute;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid var(--black);
 }
 
 .img-main {
@@ -1141,9 +1137,6 @@ p {
   height: 340px;
   top: 0;
   right: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #fff;
 }
 
 .img-sub {
@@ -1151,10 +1144,6 @@ p {
   height: 240px;
   left: 0;
   bottom: 0;
-  border: 4px solid var(--yellow);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #fff;
 }
 
 /* CONTACT */
@@ -1393,8 +1382,6 @@ p {
 
   .disk-img {
     min-height: 240px;
-    border-left: none;
-    border-top: 4px solid var(--black);
   }
 
   .about-images {
