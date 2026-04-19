@@ -478,14 +478,20 @@ p {
 }
 
 .slogan-hero {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  display: inline-block;
+  font-family: var(--font-impact);
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(1.4rem, 3vw, 2.2rem);
-  color: var(--yellow);
-  letter-spacing: 0.06em;
-  margin-top: 14px;
-  text-shadow: 2px 2px 0 var(--black);
+  font-size: clamp(1.8rem, 4.2vw, 3.2rem);
+  color: var(--black);
+  background: var(--yellow);
+  letter-spacing: 0.05em;
+  margin: 20px 0 6px;
+  padding: 8px 26px;
+  border: 3px solid var(--black);
+  box-shadow: 5px 5px 0 var(--primary);
+  transform: rotate(-2deg);
+  text-transform: uppercase;
   opacity: 1;
 }
 
