@@ -1,0 +1,49 @@
+{
+  "name": "Casa de Carnes Mais Sabor",
+  "short_name": "Mais Sabor",
+  "description": "Açougue em Taquaritinga com ofertas da semana, combos de churrasco, disk entrega e atendimento no WhatsApp.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF8E7",
+  "theme_color": "#D10F2C",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["food", "shopping"],
+  "icons": [
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fazer pedido",
+      "short_name": "Pedir",
+      "description": "Falar pelo WhatsApp para fazer um pedido",
+      "url": "https://wa.me/5516996344348?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido.",
+      "icons": [{ "src": "assets/img/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}

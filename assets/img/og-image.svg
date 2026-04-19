@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#2a1207"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC107"/>
+      <stop offset="1" stop-color="#FFD54F"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#FFC107" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Faixa amarela superior -->
+  <rect x="0" y="0" width="1200" height="14" fill="url(#accent)"/>
+  <rect x="0" y="616" width="1200" height="14" fill="#D10F2C"/>
+
+  <!-- Selo redondo -->
+  <g transform="translate(1000, 140)">
+    <circle r="110" fill="#D10F2C" stroke="#FFC107" stroke-width="6"/>
+    <text text-anchor="middle" y="-14" font-family="Impact, 'Archivo Black', sans-serif" font-size="28" fill="#FFC107">OFERTAS</text>
+    <text text-anchor="middle" y="22" font-family="Impact, 'Archivo Black', sans-serif" font-size="44" fill="#fff">DA</text>
+    <text text-anchor="middle" y="62" font-family="Impact, 'Archivo Black', sans-serif" font-size="44" fill="#fff">SEMANA</text>
+  </g>
+
+  <!-- Título -->
+  <text x="80" y="220" font-family="Impact, 'Archivo Black', sans-serif" font-size="88" fill="#FFC107" letter-spacing="-1">
+    CASA DE CARNES
+  </text>
+  <text x="80" y="315" font-family="Impact, 'Archivo Black', sans-serif" font-size="120" fill="#fff" letter-spacing="-2">
+    MAIS SABOR
+  </text>
+
+  <!-- Tarja de destaque -->
+  <g transform="translate(80, 360)">
+    <rect width="520" height="60" fill="#D10F2C" transform="skewX(-10)"/>
+    <text x="30" y="42" font-family="'Bebas Neue', Impact, sans-serif" font-size="36" fill="#fff" letter-spacing="2">
+      OFERTAS · KITS · DISK ENTREGA
+    </text>
+  </g>
+
+  <!-- Subtítulo / CTA -->
+  <text x="80" y="470" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="30" fill="#f5f5f5">
+    Peça pelo WhatsApp · Taquaritinga/SP
+  </text>
+
+  <!-- WhatsApp -->
+  <g transform="translate(80, 510)">
+    <rect width="360" height="66" rx="33" fill="#25D366"/>
+    <text x="180" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="26" fill="#fff">
+      📱 (16) 99634-4348
+    </text>
+  </g>
+
+  <!-- Slogan -->
+  <text x="1120" y="588" text-anchor="end" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-style="italic" font-size="20" fill="#FFC107">
+    Da nossa casa para sua mesa
+  </text>
+</svg>
