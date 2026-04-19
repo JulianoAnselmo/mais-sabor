@@ -26,7 +26,7 @@ assets/img/
 │
 └── sobre/                      → Imagens institucionais
     ├── fachada.png             → Foto da fachada (seção "Sobre")
-    └── espeto-disk-entrega.png → Ilustração disk entrega
+    └── disk-entrega.png → Ilustração disk entrega
 ```
 
 ## Trocar um folheto semanal
