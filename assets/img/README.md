@@ -17,12 +17,12 @@ assets/img/
 │   └── mistura.jpg             → Kit Mistura
 │
 ├── ofertas/                    → Grid de ofertas especiais
-│   ├── kafta.jfif
-│   ├── hamburguer.jfif
+│   ├── kafta.jpeg
+│   ├── hamburguer.jpeg
 │   ├── pao-queijo.jpeg
-│   ├── espetos.jfif
-│   ├── kibe-500g.jfif
-│   └── kibe-almondegas.jfif
+│   ├── espetos.jpeg
+│   ├── kibe-500g.jpeg
+│   └── kibe-almondegas.jpeg
 │
 └── sobre/                      → Imagens institucionais
     ├── fachada.png             → Foto da fachada (seção "Sobre")
@@ -56,5 +56,5 @@ Sem o `og-image.png` no ar, o compartilhamento fica sem imagem.
 
 ## Formatos aceitos
 
-- `.jpg`, `.jpeg`, `.png`, `.jfif`, `.webp`
+- `.jpg`, `.jpeg`, `.png`, `.jpeg`, `.webp`
 - Prefira `.webp` ou `.jpg` otimizado (menor que 400 KB para folhetos)

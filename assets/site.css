@@ -103,11 +103,13 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(3.2rem, 8vw, 6rem);
+  font-size: clamp(2.4rem, 8vw, 6rem);
+  overflow-wrap: break-word;
 }
 
 h2 {
-  font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+  font-size: clamp(1.9rem, 5.5vw, 4.2rem);
+  overflow-wrap: break-word;
 }
 
 h3 {
@@ -287,6 +289,13 @@ p {
   }
 }
 
+@media (max-width: 380px) {
+  .brand-logo {
+    height: 78px;
+    margin: -10px 0;
+  }
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -373,6 +382,12 @@ p {
   border-radius: 999px;
   font-size: 0.82rem;
   letter-spacing: 0.03em;
+}
+
+@media (max-width: 560px) {
+  .promo-bar { font-size: 0.82rem; padding: 8px 10px; gap: 8px; }
+  .promo-bar .promo-text-long { display: none; }
+  .status-pill { font-size: 0.74rem; padding: 3px 10px; }
 }
 
 .status-pill.open { background: #0f9d3c; }
