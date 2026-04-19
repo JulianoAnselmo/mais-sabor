@@ -1,6 +1,6 @@
 var businessInfoData = {
   "name": "Casa de Carnes Mais Sabor",
-  "slogan": "Da nossa casa para sua mesa",
+  "slogan": "Orgulho de ser a melhor",
   "phone": "(16) 99634-4348",
   "whatsappNumber": "5516996344348",
   "whatsappMensagemPadrao": "Ola, vim pelo site e quero fazer um pedido.",
