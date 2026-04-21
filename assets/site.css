@@ -260,11 +260,12 @@ p {
 }
 
 .header-inner {
-  min-height: 84px;
+  min-height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  padding: 6px 0;
 }
 
 .brand {
@@ -278,27 +279,26 @@ p {
   height: 110px;
   width: auto;
   object-fit: contain;
-  margin: -18px 0;
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.12));
 }
 
 @media (max-width: 820px) {
   .header-inner {
-    min-height: 64px;
+    min-height: 88px;
+    padding: 4px 0;
   }
   .brand-logo {
     height: 76px;
-    margin: -10px 0;
   }
 }
 
 @media (max-width: 380px) {
   .header-inner {
-    min-height: 58px;
+    min-height: 78px;
+    padding: 4px 0;
   }
   .brand-logo {
     height: 66px;
-    margin: -8px 0;
   }
 }
 
