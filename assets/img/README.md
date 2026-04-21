@@ -6,27 +6,27 @@ Para atualizar qualquer imagem, **substitua o arquivo mantendo o mesmo nome**. N
 
 ```
 assets/img/
-├── logo.png                    → Logo do açougue (header, footer, favicon)
+├── logo.webp                    → Logo do açougue (header, footer, favicon)
 │
 ├── folhetos/                   → Folhetos grandes da semana (topo do site)
-│   ├── folheto-1.jpeg          → Folheto principal
-│   └── folheto-2.jpeg          → Folheto secundário
+│   ├── folheto-1.webp          → Folheto principal
+│   └── folheto-2.webp          → Folheto secundário
 │
 ├── kits/                       → Cards dos kits
-│   ├── economico.jpg           → Kit Econômico
-│   └── mistura.jpg             → Kit Mistura
+│   ├── economico.webp           → Kit Econômico
+│   └── mistura.webp             → Kit Mistura
 │
 ├── ofertas/                    → Grid de ofertas especiais
-│   ├── kafta.jpeg
-│   ├── hamburguer.jpeg
-│   ├── pao-queijo.jpeg
-│   ├── espetos.jpeg
-│   ├── kibe-500g.jpeg
-│   └── kibe-almondegas.jpeg
+│   ├── kafta.webp
+│   ├── hamburguer.webp
+│   ├── pao-queijo.webp
+│   ├── espetos.webp
+│   ├── kibe-500g.webp
+│   └── kibe-almondegas.webp
 │
 └── sobre/                      → Imagens institucionais
-    ├── fachada.png             → Foto da fachada (seção "Sobre")
-    └── disk-entrega.png → Ilustração disk entrega
+    ├── fachada.webp             → Foto da fachada (seção "Sobre")
+    └── disk-entrega.webp → Ilustração disk entrega
 ```
 
 ## Trocar um folheto semanal

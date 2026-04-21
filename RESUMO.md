@@ -26,10 +26,10 @@ mais-sabor/
 ├── GUIA-DEPLOY.md      ← passo a passo de deploy
 ├── RESUMO.md           ← este arquivo
 └── imagens/
-    ├── logo.png
+    ├── logo.webp
     ├── promocao.jpeg              ← folheto 1 (hero)
     ├── promocao1.jpeg             ← folheto 2 (hero)
-    ├── fachada.png                ← foto da loja (seção Sobre)
+    ├── fachada.webp                ← foto da loja (seção Sobre)
     ├── espeto-disk-entrega.png    ← banner Disk Entrega
     ├── kit-economico.jpg          ← seção Kits
     └── kit-mistura.jpg            ← seção Kits
