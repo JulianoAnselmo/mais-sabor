@@ -1453,6 +1453,12 @@ p {
   padding-top: 14px;
 }
 
+/* CRÉDITO DESENVOLVEDOR */
+.footer-dev-bar { border-top: 1px solid rgba(255,255,255,0.15); margin-top: 0; padding: 14px 0; text-align: center; }
+.footer-dev { font-size: .78rem; color: rgba(255,255,255,0.45); }
+.footer-dev a { color: rgba(255,255,255,0.45); text-decoration: none; transition: color .3s; }
+.footer-dev a:hover { color: #fff; }
+
 /* FLOAT WHATSAPP */
 .float-wpp {
   position: fixed;
