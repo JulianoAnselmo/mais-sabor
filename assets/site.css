@@ -890,6 +890,26 @@ p {
   margin: 0;
 }
 
+.kit-price {
+  font-family: var(--font-impact);
+  font-size: clamp(2rem, 4.2vw, 2.8rem);
+  color: var(--primary);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.kit-price-currency {
+  font-size: 0.55em;
+  vertical-align: top;
+  margin-right: 4px;
+  color: var(--black);
+}
+
+.kit-price-cents {
+  font-size: 0.6em;
+}
+
 .kit-list {
   list-style: none;
   padding: 0;
