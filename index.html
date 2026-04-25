@@ -461,6 +461,23 @@
         </div>
       </section>
 
+      <section class="instagram-feed section" id="instagram" aria-label="Feed do Instagram">
+        <div class="container">
+          <div class="section-header reveal text-center">
+            <span class="subtitle">@casadecarnes.maissabor</span>
+            <h2>NO INSTAGRAM</h2>
+          </div>
+          <div id="instagramGrid" class="instagram-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:24px;"></div>
+          <p style="text-align:center;margin-top:16px;"><a href="https://www.instagram.com/casadecarnes.maissabor/" target="_blank" rel="noopener" class="btn btn-secondary">Seguir no Instagram</a></p>
+        </div>
+        <style>
+          .instagram-feed .instagram-grid a { display:block; aspect-ratio:1/1; overflow:hidden; border-radius:8px; background:#f1f5f9; position:relative; }
+          .instagram-feed .instagram-grid img { width:100%; height:100%; object-fit:cover; transition:transform .3s; }
+          .instagram-feed .instagram-grid a:hover img { transform:scale(1.05); }
+          @media(max-width:640px){ .instagram-feed .instagram-grid { grid-template-columns:repeat(2,1fr) !important; } }
+        </style>
+      </section>
+
       <section class="contact section" id="contato">
         <div class="container">
           <div class="section-header reveal text-center">
@@ -594,6 +611,23 @@
       if (data.googleMapsEmbed) setAttr('bi-maps-iframe', 'src', data.googleMapsEmbed);
     }
 
+    // ===== RENDER: INSTAGRAM GRID =====
+    function renderInstagramGrid(posts) {
+      var grid = document.getElementById('instagramGrid');
+      if (!grid || !Array.isArray(posts) || !posts.length) return;
+      var html = '';
+      posts.slice(0, 9).forEach(function (post) {
+        var img = post.image || post.imageUrl || '';
+        var url = post.postUrl || '#';
+        var alt = (post.alt || 'Post @casadecarnes.maissabor').replace(/"/g, '&quot;');
+        if (!img) return;
+        html += '<a href="' + url + '" target="_blank" rel="noopener" aria-label="Abrir post no Instagram">';
+        html += '<img src="' + img + '" alt="' + alt + '" loading="lazy">';
+        html += '</a>';
+      });
+      grid.innerHTML = html;
+    }
+
     // ===== BOOTSTRAP: tenta Firestore, fallback para JS local =====
     (function boot() {
       fetchFirestore('businessInfo')
@@ -602,6 +636,10 @@
           else aplicarBusinessInfo(window.businessInfoData);
         })
         .catch(function () { aplicarBusinessInfo(window.businessInfoData); });
+
+      fetchFirestore('instagram')
+        .then(function (data) { if (Array.isArray(data) && data.length) renderInstagramGrid(data); })
+        .catch(function () {});
     })();
   </script>
   <script src="assets/site.js" defer></script>
